@@ -1,0 +1,50 @@
+
+    body {
+        font-family: Arial, sans-serif;
+        background-color:#16816e;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background:url(./images/studentsform.avif)no-repeat center center/cover;
+       
+    }
+
+    #fees {
+        background: rgba(32, 64, 102, 0.5);
+        padding: 30px 40px;
+        border-radius: 12px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        width: 300px;
+    }
+
+    #fees h2 {
+        color: #f4f0f0;
+        margin-bottom: 15px;
+    }
+
+    #fees p {
+        font-size: 18px;
+        color: #dfd7d7;
+        background-color: #e9f0ff;
+        padding: 10px;
+        border-radius: 8px;
+        font-style:normal;
+        font-family:sans-serif;
+    }
+ #fees li {
+        background-color: #e9f0ff;
+        margin: 8px 0;
+        padding: 10px;
+        border-radius: 8px;
+        color: #333;
+        font-weight: bold;
+        font-style: italic;
+        list-style:none;}
+
+    #fees li:hover {
+        background-color: #d0e2ff;
+        cursor:pointer;}
